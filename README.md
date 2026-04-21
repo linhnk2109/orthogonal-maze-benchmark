@@ -47,12 +47,11 @@ Run the full pipeline:
 
 python generate_and_benchmark.py
 
----
 
+```
 ## Repository Structure
 
 After executing the pipeline, the generated dataset is organized as follows:
-
 ```text
 datasets/
 ├── polygons/                  # Raw mathematical coordinates of orthogonal polygons (.csv)
@@ -61,8 +60,8 @@ datasets/
     ├── dataset_summary.csv    # Structural metadata mapping polygons to mazes
     ├── pathfinding_summary.csv # Raw pathfinding metrics (Success, Length, Time)
 
----
 
+```
 ## How to Cite
 
 If you use this code or dataset in your research, please cite:
