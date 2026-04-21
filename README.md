@@ -47,6 +47,7 @@ Run the full pipeline:
 
 python generate_and_benchmark.py
 
+---
 
 ## Repository Structure
 
@@ -60,6 +61,20 @@ datasets/
     ├── dataset_summary.csv    # Structural metadata mapping polygons to mazes
     ├── pathfinding_summary.csv # Raw pathfinding metrics (Success, Length, Time)
 
+---
 
+## How to Cite
+
+If you use this code or dataset in your research, please cite:
+
+Nguyen, K. L. (2026).  
+"A Dataset of Orthogonal Polygon-Derived Maze Environments for Path Planning Benchmarking".  
+Zenodo. https://doi.org/10.5281/zenodo.19640621
+
+and the associated article:
+
+Nguyen, K. L. (2026).  
+"A Dataset of Orthogonal Polygon-Derived Maze Environments for Path Planning Benchmarking".  
+Data in Brief (submitted).
 
 
