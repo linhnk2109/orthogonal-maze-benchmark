@@ -3,10 +3,6 @@ Python code for generating grid-based maze environments from orthogonal polygons
 
 This repository contains the generation pipeline and benchmarking is introduced in “A Dataset of Orthogonal Polygon-Derived Maze Environments for Path Planning Benchmarking” by Nguyễn Kiều Linh.
 
-# Orthogonal Polygon Maze Generator
-
-Python code for generating grid-based maze environments from orthogonal polygons, with benchmarking of path planning algorithms.
-
 ---
 
 ## Description
