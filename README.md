@@ -71,7 +71,8 @@ If you use this code or dataset in your research, please cite:
 
 Nguyen, K. L. (2026).  
 "A Dataset of Orthogonal Polygon-Derived Maze Environments for Path Planning Benchmarking".  
-Zenodo. https://doi.org/10.5281/zenodo.19640621
+Zenodo. https://doi.org/10.5281/zenodo. 19990818
+
 
 and the associated article:
 
