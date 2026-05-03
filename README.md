@@ -36,11 +36,10 @@ This repository provides a simple pipeline for:
 - `benchmark_stochastic_algos.py`
 This script executes the **extended stochastic evaluation** for sampling-based path planning algorithms (PRM, RRT-Connect, and RRT*). 
 
-**Key Features:**
-* **Multi-trial Aggregation:** Runs 5 independent trials per maze instance for each stochastic algorithm to ensure statistical robustness, calculating the average success rate, path length, and execution time.
-* **RRT* Asymptotic Optimality:** Implements a convergence-based termination criterion for RRT*. Instead of halting upon finding the first path, it utilizes an optimization budget to continuously rewire the tree until the path cost stagnates, demonstrating its asymptotic optimality.
-* **Data Output:** Aggregates and exports the averaged benchmarking metrics to `stochastic_extended_benchmark.csv`.
-* **Visualization:** Automatically generates and saves high-resolution visualizations of the optimized RRT* trajectories (omitting intermediate exploration trees for clarity) into the `images/rrt_star_optimized/` directory.
+* Multi-trial Aggregation: Runs 5 independent trials per maze instance for each stochastic algorithm to ensure statistical robustness, calculating the average success rate, path length, and execution time.
+* RRT Asymptotic Optimality:** Implements a convergence-based termination criterion for RRT*. Instead of halting upon finding the first path, it utilizes an optimization budget to continuously rewire the tree until the path cost stagnates, demonstrating its asymptotic optimality.
+* Data Output: Aggregates and exports the averaged benchmarking metrics to `stochastic_extended_benchmark.csv`.
+* Visualization: Automatically generates and saves high-resolution visualizations of the optimized RRT* trajectories (omitting intermediate exploration trees for clarity) into the `images/rrt_star_optimized/` directory.
 ---
 
 ## Usage
